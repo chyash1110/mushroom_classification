@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: whitesmoke;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            margin: 20px 0;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            background-color: #333; 
+            color: #fff;
+            text-align: center;
+            border-top: 1px solid #ccc; 
+            padding-top: 10px; 
+        }
+
+        footer p {
+            margin: 5px;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Classification Result</h1>
+    <p>The mushroom is predicted to be: {{ result }}</p>
+    <a href="/">Back to Home</a>
+    <footer>
+        <p>View this project on <a href="https://github.com/chyash1110/mushroom_classification" target="_blank" rel="noopener">GitHub</a></p>
+        <p>&copy; 2024 Yash Chauhan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
