@@ -77,3 +77,9 @@ Evaluation metrics such as accuracy, precision, recall, and F1-score are provide
 ## Web Application
 
 The Flask web application allows users to classify mushrooms in real-time. Users can input various features of the mushroom, and the application will predict whether it is edible or poisonous using the KNN model trained in the notebook.
+
+## Results
+
+![image](https://github.com/user-attachments/assets/a37025cf-ce70-485c-8bee-0949140e1355)
+![image](https://github.com/user-attachments/assets/43da15ac-3508-409e-a892-5b3eeee86378)
+
